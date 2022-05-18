@@ -1,0 +1,10 @@
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+
+#login using password found in previous level
+
+pwd
+ls
+#found a file called -. to open it provide full path
+
+cat ./-
+#password found CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
