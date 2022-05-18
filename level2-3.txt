@@ -1,0 +1,6 @@
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+#enter password found on the previous level
+pwd
+ls
+cat spaces\ in\ this\ filename
+#password for bandit3 = UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
