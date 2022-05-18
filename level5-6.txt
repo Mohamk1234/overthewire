@@ -1,0 +1,7 @@
+#login using script written
+ls
+cd inhere
+find . -size 1033c -type f
+# the above command specifies that we are looking for a file in this directly with size 1033 bytes
+cat ./maybehere07/.file2
+#password for bandit6 = DXjZPULLxYr17uwoI01bNLQbtFemEgo7
