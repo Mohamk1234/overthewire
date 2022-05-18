@@ -1,0 +1,11 @@
+#login using password acquired at previous level
+
+pwd 
+
+#command to find all files whose group is bandit6 and size is 33 bytes
+
+find / -type f -group bandit6 -size 33c
+
+cat /var/lib/dpkg/info/bandit7.password
+
+#password for bandit7 = HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
