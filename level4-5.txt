@@ -1,0 +1,6 @@
+#ssh using script written previously
+#enter password retreived from previous level
+ls 
+cd inhere
+cat ./-file07
+#password for bandit5 = koReBOKuIDDepwhWk7jZC0RTdopnAYKh
