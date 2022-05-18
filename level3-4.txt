@@ -1,0 +1,9 @@
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+#login using password found in previous level
+
+pwd
+ls -a
+cd inhere
+ls -a
+cat ./.hidden
+ #password for bandit4 = pIwrPrtPN36QITSp3EQaw936yaFoFgAB
