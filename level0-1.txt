@@ -1,0 +1,8 @@
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+#enter password bandit0 to login
+pwd
+ls
+cat readme
+#found password for bandit1 = boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+
