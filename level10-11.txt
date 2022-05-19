@@ -1,0 +1,6 @@
+#login using password acquired in previous level
+#the file is encoded with base64
+
+base64 --decode data.txt
+
+#the password for bandit11 is IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
