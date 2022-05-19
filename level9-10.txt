@@ -1,0 +1,6 @@
+#login using password acquired in previous level
+
+ls
+strings data.txt | grep '='
+
+#password for bandit10= truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
