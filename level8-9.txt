@@ -1,0 +1,7 @@
+#login using password acquired at previous level
+
+ls
+
+sort data.txt | uniq -c | grep '^ *1 '
+#^ indicates the beginning of a line
+#password for bandit9= UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
