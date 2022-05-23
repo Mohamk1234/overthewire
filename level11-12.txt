@@ -1,0 +1,6 @@
+#login using password acquired in previous level
+ls
+
+cat data.txt | tr '[a-zA-Z]' '[n-za-mN-ZA-M]'
+
+#the password for bandit12 = 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
