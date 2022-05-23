@@ -1,0 +1,55 @@
+#login using the password acquired from the previous level
+
+mkdir /tmp/mydir
+cp data.txt /tmp/mydir
+file data.txt
+#we see the file is in ASCII
+# converting the hexdump back to binary
+
+xxd -r data.txt newdata
+file newdata
+
+# the file was compressed using gzip
+# adding gz extension so that we can decompress it
+mv newdata newdata.gz
+cat newdata
+file newdata
+#bzip2 was used to compress this
+
+mv newdata newdata.bz2
+bzip2 -d newdata.bz2
+cat newdata
+file newdata
+#we find gzip was used to compress this
+mv newdata newdata.gz
+gzip -d newdata.gz
+cat newdata
+file newdata
+
+#Posix Tar archive
+tar -xvf newdata
+file data5.bin
+
+#this is again a tar archive
+tar -xvf data5.bin
+file data6.bin
+
+#this is compressed using bzip2
+mv data6.bin data7.bz2
+bzip2 -d data7.bz2
+file data7
+
+#this is again a tar archive
+tar -xvf data7
+file data8.bin
+
+#this was compressed using gzip
+mv data8.bin data9.gz
+gzip -d data9.gz
+file data9
+#we have ASCII text
+cat data9
+#password for bandit13 = 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+
+
